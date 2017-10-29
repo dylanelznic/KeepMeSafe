@@ -1,0 +1,8 @@
+flask
+flask-ask
+flask-wtf
+flask-sqlalchemy
+psycopg2
+requests
+unidecode
+nexmo

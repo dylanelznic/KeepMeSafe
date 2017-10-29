@@ -1,0 +1,215 @@
+html, body {
+  height: 100%;
+  margin: auto;
+}
+
+body {
+  min-height: 100%;
+}
+
+.body-container {
+  min-height: 100%;
+  width: 100%;
+  padding: 30px 5% 0 5%;
+  /*background-color: green;*/
+}
+
+.mynavbar-background, .navbar, .navbar-light, .bg-light {
+  background-color: #1b4758 !important;
+  height: 22px;
+}
+
+nav > a > img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 24px;
+}
+
+nav {
+    min-height: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.new-contact-button {
+    border: none;
+    background-color: none;
+}
+
+.fa {
+    color: #e5e5e5;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: #cccccc;
+}
+
+.add-new-contact {
+    color: #e5e5e5;
+}
+
+.content-container {
+  height: 100%;
+  width: 100%;
+  /*background-color: cyan;*/
+}
+
+.content-container > h2 {
+  text-align: center;
+  margin: 10px 0px;
+  /*background-color: red;*/
+}
+
+.contact-container {
+  height: 270px;
+  margin: 0;
+}
+
+.contact-module {
+  height: 270px;
+  padding: 10px;
+  /*background-color: blue;*/
+}
+
+.contact-wrapper {
+  height: 100%;
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+}
+
+.contact-info-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  /*background-color: red;*/
+}
+
+.contact-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+/*.contact-unoccupied {
+  border: 3px dashed black;
+}*/
+
+.ensure-hidden {
+  display: none !important;
+}
+
+.new-contact-input {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.big-graph-container {
+  height: 540px;
+  margin: 0;
+  /*background-color: yellow;*/
+}
+
+.graph-module {
+  height: 540px;
+  padding: 10px;
+  margin: 0 auto;
+  /*background-color: beige;*/
+}
+
+.big-graph {
+  max-height: 540px;
+  background-color: white;
+}
+
+.small-graph-container {
+  width: 100%;
+  height: 240px;
+  margin: 0;
+  /*background-color: grey;*/
+}
+
+.contact-graph-split {
+  width: 100%;
+  height: 1px;
+  margin: 20px 0px;
+  background-color: #BBB;
+}
+
+.radar-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 70px;
+  /*background-color: orange;*/
+}
+
+.radar-titles {
+  /*background-color: red;*/
+}
+
+.radar-titles > h2 {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.depression-header {
+  float: left;
+}
+
+.time-of-day-header {
+
+}
+
+.anxiety-header {
+  float: right;
+}
+
+.radar1-placeholder {
+  width: 33%;
+  height: 70%;
+  float: left;
+  /*clear: both;*/
+  /*background-color: blue;*/
+}
+
+.pie-chart-placeholder {
+  width: 33%;
+  height: 70%;
+  margin: 0 auto;
+  float: left;
+  /*clear: both;*/
+  /*background-color: yellow;*/
+}
+
+.radar2-placeholder {
+  width: 33%;
+  height: 70%;
+  float: left;
+  /*clear: left;*/
+  /*background-color: yellow;*/
+}
+
+#myRadarChart1 {
+  display: inline-block;
+  /*width: 100% !important;*/
+  /*height: 100% !important;*/
+  /*background-color: red;*/
+}
+
+#myRadarChart2 {
+  display: inline-block;
+  width: auto;
+  /*background-color: green;*/
+}
